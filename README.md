@@ -7,10 +7,9 @@ brief introduction. (Please don't post your solutions online / on GitHub!)
 ### Outline
 
 Rover.com aims to match sitters with dog owners - the more quickly
-we can find a suitable match the better experience our customers have.
+we can find a suitable match the better!
 
-For the sake of this problem, we'll assume the only suitable sitters
-are either:
+For this problem, we'll assume the only suitable sitters are:
 
 1. Your friends
 2. Friends of your friends
@@ -24,10 +23,10 @@ that will print a list of suitable sitters for an individual dog owner.
 
 Your goal is to create a program that will take 2 positional arguments:
 
-1. A filename of our input data
-2. The id of the user seeking a sitter
+1. The filename of our input data
+2. The ID of the user seeking a sitter
 
-In other words, we should be able to run your program like this:
+In other words, we should be able to run your program like this (after compilation if needed):
 
 ```bash
 $ ./solution input.csv 1234
@@ -44,8 +43,10 @@ The input file will consist of 4 sections:
     the rating in stars given by the dog owner, each separated by a comma)
 
 Sections 2 to 4 will begin with a number on a separate line indictating how many lines
-follow for that section. Below in a small sample input (actual input will not include
-the comments indicated by a # or the whitespace preceeding the #)
+follow for that section. Below in a small sample input.
+
+The actual input will not include the comments indicated by a # or the whitespace preceeding the #.
+This file is available as ```sample-input.csv``` in this repository.
 
 ```csv
 5 # total users, indexed from 0 to 4
@@ -65,6 +66,7 @@ the comments indicated by a # or the whitespace preceeding the #)
 ### Output
 
 For a given user as input, please print the IDs of suitable sitters (newline separated) in order of:
+
 1. Friends
 2. Friends of friends
 3. Sitters of friends who received a greater than 4 star review
@@ -75,13 +77,10 @@ For the above sample input, if we searched for user 0:
 $ ./solution input.csv 0
 ```
 
-We'd expect:
+We'd expect (available as ```sample-output.csv```)
 
 ```
 1
 2
 4
 ```
-
-
-
