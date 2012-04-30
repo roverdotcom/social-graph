@@ -91,30 +91,36 @@ We'd expect (available as ```sample-output.csv```)
 
 For other sample inputs:
 
+```bash
 $ ./solution input.csv 1
-
+```
 
 ```
 2
 4
 ```
 
+```bash
 $ ./solution input.csv 2
-
+```
 
 ```
 1
 4
 ```
 
+```bash
 $ ./solution input.csv 3
+```
 
 ```
 2
 1
 ```
 
+```bash
 $ ./solution input.csv 4
+```
 
 ```
 ```
