@@ -13,7 +13,8 @@ For this problem, we'll assume the only suitable sitters are:
 
 1. Your friends
 2. Friends of your friends
-3. Sitters to whom your friends have given at least a 4 star review
+3. Your past sitters
+4. Sitters to whom your friends have given at least a 4 star review
 
 Your task is to create a program in Python, Ruby, Javascript or Java
 that will print a list of suitable sitters for an individual dog owner.
