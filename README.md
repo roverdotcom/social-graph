@@ -64,7 +64,7 @@ sample input.
 2,3 # 2 & 3 are friends
 2 # 2 past stays
 1,4,4 # 4 sat 1's dog and received a 4 star rating
-2,3,5 # 3 sat 2's dog and received a 5 star rating
+3,2,5 # 2 sat 3's dog and received a 5 star rating
 ```
 
 ### Output
@@ -98,7 +98,6 @@ $ ./solution input.csv 1
 
 ```
 2
-4
 ```
 
 ```bash
