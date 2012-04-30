@@ -13,7 +13,7 @@ For this problem, we'll assume the only suitable sitters are:
 
 1. Your friends
 2. Friends of your friends
-3. Sitters your friends have used and left at least a 4 star review
+3. Sitters to whom your friends have given at least a 4 star review
 
 Your task is to create a program in Python, Ruby, Javascript or Java
 that will print a list of suitable sitters for an individual dog owner.
@@ -45,7 +45,7 @@ The input file will consist of 4 sections:
 Sections 2 to 4 will begin with a number on a separate line indictating how many lines
 follow for that section. Below is a small sample input.
 
-The actual input will not include the comments indicated by a # or the whitespace preceeding the #.
+The actual input will not include the comments indicated by a # or the whitespace preceding the #.
 This file is available as ```sample-input.csv``` in this repository.
 
 Please note entries in real inputs are not necessarily ordered like this
@@ -63,7 +63,7 @@ sample input.
 2,3 # 2 & 3 are friends
 2 # 2 past stays
 1,4,4 # 4 sat 1's dog and received a 4 star rating
-2,3,5 # 2 sat 3's dog and received a 5 star rating
+2,3,5 # 3 sat 2's dog and received a 5 star rating
 ```
 
 ### Output
@@ -72,7 +72,8 @@ For a given user as input, please print the IDs of suitable sitters (newline sep
 
 1. Friends
 2. Friends of friends
-3. Sitters of friends who received a greater than 4 star review
+3. Your past sitters who you've given a greater than 4 star review
+4. Sitters of friends who received a greater than 4 star review
 
 For the above sample input, if we searched for user 0:
 
@@ -86,4 +87,34 @@ We'd expect (available as ```sample-output.csv```)
 1
 2
 4
+```
+
+For other sample inputs:
+
+$ ./solution input.csv 1
+
+
+```
+2
+4
+```
+
+$ ./solution input.csv 2
+
+
+```
+1
+4
+```
+
+$ ./solution input.csv 3
+
+```
+2
+1
+```
+
+$ ./solution input.csv 4
+
+```
 ```
