@@ -98,6 +98,7 @@ $ ./solution input.csv 1
 
 ```
 2
+4
 ```
 
 ```bash
