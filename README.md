@@ -43,10 +43,13 @@ The input file will consist of 4 sections:
     the rating in stars given by the dog owner, each separated by a comma)
 
 Sections 2 to 4 will begin with a number on a separate line indictating how many lines
-follow for that section. Below in a small sample input.
+follow for that section. Below is a small sample input.
 
 The actual input will not include the comments indicated by a # or the whitespace preceeding the #.
 This file is available as ```sample-input.csv``` in this repository.
+
+Please note entries in real inputs are not necessarily ordered like this
+sample input.
 
 ```csv
 5 # total users, indexed from 0 to 4
