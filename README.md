@@ -55,9 +55,9 @@ sample input.
 ```csv
 5 # total users, indexed from 0 to 4
 3 # 3 sitters
-1 #
-2 # Users 1, 2 and 4 are sitters
-4 #
+1 # User 1 is a sitter
+2 # User 2 is a sitter
+4 # User 4 is a sitter
 3 # 3 friend relationships
 0,1 # 0 & 1 are friends
 1,2 # 1 & 2 are friends
